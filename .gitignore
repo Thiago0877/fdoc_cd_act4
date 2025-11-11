@@ -1,0 +1,52 @@
+# .gitignore para el proyecto fdoc_cd_act5
+# Reglas comunes para proyectos Python
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos generados por packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs, cobertura y caches de herramientas
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Configs de editores/IDE
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+*.csv
+.vscode/
+
+# Datos / CSV (opcional) - descomenta si quieres ignorar todos los CSV
+# *.csv
+
+# Ejemplos concretos (si prefieres ignorar estos archivos, descomenta):
+# actividad_semana5.csv
+# datos_seleccionados.csv
+# personas_filtradas.csv
+
+# Ejemplo: ignorar una carpeta entera pero mantener un archivo dentro
+# data/
+# !data/keepme.txt
+
+# Nota: Si los archivos ya están en el repositorio, añadirlos aquí NO los quita del tracking.
+# Usa `git rm --cached <archivo>` para dejar de trackear sin borrar localmente.
